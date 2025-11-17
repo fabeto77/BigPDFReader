@@ -1,0 +1,19 @@
+{
+  "name": "pdf-massive-search",
+  "version": "1.0.0",
+  "description": "Herramienta para buscar información específica por fecha en PDFs grandes",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["pdf", "search", "audit", "document", "analysis"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "fs-extra": "^11.1.0"
+  }
+}
